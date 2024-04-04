@@ -8,6 +8,6 @@ This repository contains simulated data for demonstration purposes.  Settings 1 
 * The longitudinal data consists of measurements of four outcomes and is provided in ``sim_dat/long_dat_s[setting]_meas_pattern_[measurement pattern]_g1.csv``
 * The time-to-event outcome is provided in ``sim_dat/surv_dat_s[setting]_meas_pattern_[measurement pattern]_g1.csv``
 
-To fit the model, run ``fit_model/fit_jm.R``.
+To fit the model, run ``fit_model/fit_jm.R``.  In this example, we summarize the four longitudinal outcomes as two latent factors and model the hazard of an event as a function of the current value of the two time-varying latent factors and a constant baseline hazard.
 
 For questions, please contact mrabbott@umich.edu.
