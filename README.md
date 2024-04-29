@@ -1,4 +1,4 @@
-# Joint longitudinal-survival model for multivariate intensive longitudinal data
+# A Bayesian joint longitudinal-survival model with a latent stochastic process for intensive longitudinal data
 
 This repository constains example code for fitting a **joint longitudinal-survival model**.  This joint model, which summarizes multiple longitudinal outcomes as a smaller number of time-varying latent factors that capture the instantaneous risk of a time-to-event outcome, consists of three submodels: (i) a measurement submodel, (ii) a structural submodel, and (iii) a survival submodel.  We take a Bayesian approach to fitting this model and use Stan (Carpenter et al., J. Stat. Soft., 2017).  The portion of code corresponding to longitudinal submodels (i) and (ii) builds on code written by Trung Dung Tran; the original code is available on the author's Github: https://github.com/tdt01/LOUmodels.
 
